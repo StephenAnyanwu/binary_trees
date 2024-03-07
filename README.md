@@ -19,3 +19,14 @@ File: 1-binary_tree_insert_left.c
 * And value is the value to store in the new node
 * Your function must return a pointer to the created node, or NULL on failure or if parent is NULL
 * If parent already has a left-child, the new node must take its place, and the old left-child must be set as the left-child of the new node.
+
+### 2. Insert right
+Write a function that inserts a node as the right-child of another node  
+File: 2-binary_tree_insert_right.c
+* Prototype: binary_tree_t \*binary_tree_insert_right(binary_tree_t \*parent, int value);
+* Where parent is a pointer to the node to insert the right-child in
+* And value is the value to store in the new node
+* Your function must return a pointer to the created node, or NULL on failure or if parent is NULL
+* If parent already has a right-child, the new node must take its place, and the old right-child must be set as the right-child of the new node.
+
+
